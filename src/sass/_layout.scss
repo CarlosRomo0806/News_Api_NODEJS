@@ -1,0 +1,72 @@
+@import 'variables';
+
+*{
+    background-color: $background-color;
+}
+
+.container{
+    padding-left: 50px;
+}
+
+.encabezado h1{
+    color: $primary-color;
+    font-size: 30px;
+}
+
+.encabezado p{
+    color: $primary-color;
+}
+
+.contenedor-bloque-buscar .button-go{
+    margin-top: 5px;
+    width: 95%;
+    height: 3rem;
+    border-radius: 5px;
+    background-color: $secondary-color;
+    color: $primary-color;
+}
+
+.contenedor-bloque-buscar input{
+    width: 94.5%;
+    height: 2rem;
+    border-radius: 5px;
+    background-color: $primary-color;
+}
+
+.news-item{
+    background-color: $primary-color;
+    border-radius: 5px;
+}
+
+.news-item img{
+    height: 500px;
+}
+
+.news-item h2{
+    color: black;
+    background-color: $primary-color;
+}
+
+.news-item p{
+    color: black;
+    background-color: $primary-color;
+    width: auto;
+}
+
+.news-item button, a{
+    border-radius: 5px;
+    color: $primary-color;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 544px) {
+    .contenedor-bloque-buscar input{
+        background-color: bisque;
+    }
+
+    .contenedor-bloque-buscar .button-go{
+        background-color: cadetblue;
+    }
+}
+
